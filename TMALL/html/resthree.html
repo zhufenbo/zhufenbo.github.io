@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0; padding: 0;font-family: 宋体;}
+			.zong{width: 1100px;margin: 0 auto;}
+			a{text-decoration: none;}
+			.nav{background: white;overflow: hidden;padding: 10px;}
+			.nav img{float: left;margin-left: 180px;}
+			.navt{float: left;margin-left: 300px;}
+			.navt li{display: inline-block;width: 150px;text-align: center;padding-top:25px ;font-size: 13px;}
+			.log{float: left;}
+			.nava{margin-left: 175px;float: left;display: inline-block;width: 180px;padding: 10px 0;background-color: #C91114;color: white;padding-left: 15px;}
+			.log li{display: inline-block;width: 200px;text-align: center;padding: 10px 0;margin-left: -10px;color: black;}
+			.k{height: 10px; background:#C91114 ;}
+			.two{overflow: hidden;}
+			.body{overflow: hidden;}
+			.body p{padding: 2px;letter-spacing:3px ;margin-left: 180px;}
+			.red{color: red;}
+			p{margin-left: 330px;font-size: 12px;}
+			#color{margin:0 170px;font-size: 18px;padding: 5px 10px;background-color: papayawhip;}
+			.c{margin-left: 450px;}
+			.c li{list-style: none;margin: 20px 0;}
+			.font{font-size: 12px;}
+			#tt{width: 100%;height: 13px;background: #B6E2FB;}
+			#btn{margin-left: 500px;width: 150px;height: 40px; color:white;margin-top: 10px;background: #C91114;border: none;}
+			#co li{background-color: #B6E2FB;display: inline-block;
+			       width: 200px;height: 30px;margin-left: -40px;margin-top: 0;}
+	        #oc{display: none;padding: 50px;}
+	        .showone p{
+	        	margin: 15px;
+	        	margin-left: 100px;
+	        }
+	       
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="zong">
+				<img src="../img/logo/denglu.JPG" />
+				<ul class="navt">
+					<li><a href="#">申请免费天猫账号首页</a></li>
+					<li><a href="#">意见反馈</a></li>	
+				</ul>	
+			</div>
+		</div>
+		<div class="two">
+				<div class="k"></div>
+				<div class="zong">
+				<span class="nava">免费申请天猫账号</span>
+				<ul class="log">
+					<li id="ab" style="background-color: #C91114;">填写基本信息</li>
+					<li id="ac" style="background-color: #C91114;">获取天猫账号</li> 
+				</ul>
+			</div>
+		</div>
+		<div class="zong" onclick="alert()">
+			<div id="a" style="margin: 50px 0 0 300px;">
+				您的天猫账号为：00000000
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+		var a = document.getElementById("a");
+		if(a.innerHTML == "您的天猫账号为：00000000"){
+			alert();
+		}
+		
+		
+		 window.alert = function(){
+		 	var bgdiv = document.createElement("div");
+				bgdiv.style.position = "absolute";
+				bgdiv.style.top = "0px";
+				bgdiv.style.left = "0px";
+				
+				bgdiv.style.width = "100%";
+				var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+				bgdiv.style.height = h+"px";
+				bgdiv.style.zIndex = "299";
+				document.body.appendChild(bgdiv);
+				try{
+					bgdiv.style.background = "rgba(0,0,0,0.5)";	
+				}catch(e){
+					bgdiv.style.background = "black";
+					bgdiv.style.filter = "alpha(opacity = 50)";	
+				}
+			var conterdiv = document.createElement("div");
+			   conterdiv.style.position = "absolute";
+			   conterdiv.style.top = "50%";
+			   conterdiv.style.left = "50%";
+			   conterdiv.style.marginLeft = "-200px";
+			   conterdiv.style.marginTop = "-100px";
+			   conterdiv.style.width = "400px";
+			   conterdiv.style.height = "200px";
+			   conterdiv.style.background = "white";
+			   conterdiv.style.zIndex = "300";
+			   
+			   var str = "<ul style = 'list-style:none;margin:0;padding:0;width:100%'>";
+			   str+="<li style = 'background:#C91114;text-align:left;padding-left:20px;font-size:20px;font-weight:blod;height:30px;line-height:30px;border:1px solid #C91114;color:white;'>恭喜你，注册成功！</li>";
+			   str += "<li style='height:100px;line-height:100px;text-align:center;'>"+'请登录天猫吧！'+"</li>";
+
+			   str += "<li><button style = 'width:100px;height:50px;margin-left:150px;background:#C91114;color:white;border:none;font-weight:blod;' id='okBtn' onclick='ok()'>确定</button></li>";
+			    str += "</ul>";
+			    conterdiv.innerHTML = str;
+			    document.body.appendChild(conterdiv);
+			    
+			    this.ok = function(){
+			    	bgdiv.parentNode.removeChild(bgdiv);
+			    	conterdiv.parentNode.removeChild(conterdiv);
+			      
+			    	var ul = document.createElement("ul");
+					var li1 = document.createElement("li");
+					var a1 = document.createElement("a");
+					var txt1 = document.createTextNode("登陆天猫");
+					
+					
+					a1.setAttribute("href","login.html")
+					a1.setAttribute("margin","100px") 
+					document.body.appendChild(ul);
+					ul.appendChild(li1);
+					li1.appendChild(a1);
+					a1.appendChild(txt1);	
+				}
+			   document.getElementById("okBtn").focus();
+		 }
+		
+		</script>
+	</body>
+</html>

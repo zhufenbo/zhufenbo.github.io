@@ -1,0 +1,121 @@
+ul li{list-style: none;}
+a{text-decoration: none;}
+#mybaobei a,#shoucang a,#shangjia a{color: #aaa;}
+.mainone{width:1100px; margin: 0 auto;min-width: 900px;}
+
+
+#login{overflow: hidden;padding: 10px 20px;width: 100%;background:#F2F2F2 ;}
+#login ul{font-size: 12px;}
+#login ul li{text-align: center;}
+#login ul li a{color: #888;}
+#login_left{float: left;}
+#login_left li{display: inline-block;width: 100px;}
+#login_right {float: right;}
+#login_right li{display: inline-block;width: 80px;}
+#login a:hover{color: red;}
+#nav a:hover{color: red;}
+
+
+
+#nav{overflow: hidden;padding: 50px 100px 0 100px;}
+#nav img{display: inline-block;width:200px;float: left;margin-right: 200px;margin-top: -25px;}
+#search{width: 400px;height: 50px;float: left;border: 2px solid #C40000;}
+#btn{width: 100px;height: 56px;background-color: #C40000;margin-left: -2px;font-size: 18px;font-family: "微软雅黑";color: white;
+border: none;}
+#nav p{margin-left: 450px;}
+#nav p a{color: #888888;font-size: 11px;}
+
+#navt{background-color: #C40000;}
+#navt ul li{display: inline-block;width: 90px;text-align: center;line-height: 50px;}
+#navt ul li a{color: white;font-family: "微软雅黑";}
+#navt li:hover{background-color: orange;}
+
+#banna{position: relative;height: 500px;}
+#articlebanner .show img{width: 100%;}
+#banna ul{width: 150px;background: rgba(255,255,255,0.6);position: absolute;top: 0px;left: %10;}
+#banna ul li{width: 150px;height: 30px;text-align: center;}
+#banna ul li a{color: black;font-size: 13px;}
+#banna ul li:hover{background-color: #EEEEEE;}
+
+#conone{overflow: hidden;}
+#conone img{float: left;margin-top: 50px;width: 40%;}
+#conone table{float: right;margin-top: 50px;}
+#conone tr td{border: 1px solid #ddd;text-align: center; padding: 10px;width: 80PX;}
+#conone tr td img{width: 50px;margin: 23px 0;}
+#tabone table tr td:hover{border: 3px solid pink;}
+
+#contwo{padding: 15px 0;overflow: hidden;}
+#conteo_two li p{padding: 7px 0.5%;text-align: center;background-color: white;}
+#conteo_two li{width: 19%;display: inline-block;}
+#conteo_two li .pa{ background-color: #C40000;color: white;font-family: "微软雅黑";
+font-size: 18px;}
+#conteo_two{}
+.pb{font-size: 25px;font-family: "arial black";}
+.pc{font-family: "agency fb";color:#888888;}
+.pd img{width: 150px;}
+.h{margin: 1px 500px;}
+ 
+#conthree{background: #FEF8E0;overflow: hidden;}
+#conthree img{width:1100px;}
+
+#containerbanner{width: 100%;margin: 0 auto;position: relative;}
+#titlebanner{position: absolute;left: 800px;top: 400px;}
+#titlebanner a{width: 15px;height: 15px;border-radius: 50%;color: #fff;font-size: 15px;
+                        display: inline-block;background: black;
+				text-align: center;padding: 5px;text-decoration: none;}
+#articlebanner div{display: none;}
+#articlebanner .show{display: block;}
+.pointShow{background: orange!important;color: pink!important;}
+#containerbanner b{position: absolute;padding: 5px;background: orange;cursor: pointer;}
+#left{top: 70%;left: 20%;}
+#right{top: 70%;right: 5%;}
+#clearo{clear: both;}
+.top{font-size: 18PX;padding-top: 20PX;}
+.confour_left {width: 46%;height: 260px;float: left;padding-top: 20px;border:1px solid #eee;margin: 10px 20px 0 0;padding: 5px;}
+.confour_left .l{float: left;}
+.confour_left .r{float: right;background-color: #eee;font-size: 12px;width: 80px;height: 20px;text-align: center;line-height: 20px;}
+.confour_left ul{float: left;width: 28%;margin-left: 3%;}
+.confour_left ul li img{width: 90%;padding-top: 10px;}
+.confour_left ul li{padding-left: 3%;padding-top: 10px;font-size: 12px;line-height:20px;}
+.confour_left ul li span{color: red;font-size: 16px;}
+.confour_right{width: 45%;float: right;}
+.cle{clear: both;}
+#confive{
+	background-color: #FDEFD5;margin-top: 20px;
+}
+#confive .mainone img{margin: 0 auto;height: 50px;}
+#six p{text-align: center;padding: 20px;font-size: 18px;}
+
+#confive .mainone div{width: 19%;margin-left: 1%;}
+
+#market{overflow:hidden}
+#market .marketleft img{height: 500px;float: left;margin-right: 20px;}
+#market table tr td{width:200px;padding:0 10px 10px 10px;}
+#market table tr img{height: 260px;width: 270px;}
+#market table{float: left;}
+#market table tr td:hover{border-bottom: 3px solid red;}
+
+#wenwanshunv{overflow:hidden;}
+#wenwanshunv table{float:left;margin-right: 10px;}
+#wenwanshunv .shunvb tr td{padding:0 5px 5px 5px;}
+#wenwanshunv table tr td{margin: 10px;}
+#wenwanshunv table tr td:hover{border-bottom: 3px solid red;}
+
+#qingchunshishang{overflow: hidden;}
+#qingchunshishang table tr td{padding-right: 5px;}
+#qingchunshishang table tr td:hover{border-bottom: 3px solid red;}
+
+#youya{overflow:hidden;}
+#youya table{float:left;margin-right: 10px;}
+#youya .youyab tr td{padding:0 5px 5px 5px;}
+#youya table tr td{margin: 10px;}
+#youya table tr td:hover{border-bottom: 3px solid red;}
+
+#yuanchuangsheji{overflow: hidden;}
+#yuanchuangsheji table tr td{padding-right: 5px;}
+#yuanchuangsheji table tr td:hover{border-bottom: 3px solid red;}
+
+a{color: black;text-decoration: none;}
+.f-a{font-size: 12px;line-height: 20px;word-spacing: 8px;}
+.f-b p{color: #aaa;font-size: 13px;line-height: 20px;word-spacing: 10px;}
+#bottom{background-color: #eee;padding: 30px;margin: 30px 0 0 0;}

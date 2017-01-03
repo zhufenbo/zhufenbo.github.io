@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/shopingcar.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	    <script src="../js/shop.js"> </script>
+		<script src="../js/shoppingcar.js"></script>
+	</head>
+	<body>
+       <div id="login">
+			<div class="mainone">
+				<ul id="login_left">
+					<li id="zhanghao"></li>
+					<li><a href="">手机逛淘宝</a></li>
+				</ul>
+				<ul id="login_right">
+					<li><a href="">淘宝网首页</a></li>
+					<li><a href="" id="abaobei">我的淘宝</a></li>
+					<div id="mybaobei" style="position: absolute;display: none;">
+					        <ul style="padding: 10px;background-color: #F2F2F2;margin-left: 80px;">
+					    		<p style="padding-bottom: 10px;"><a href="">已买到的宝贝</a></p>
+					    		<p><a href="">已卖出的宝贝</a></p>
+					    	</ul>
+					    </div>
+					<li><a href="">购物车0件</a></li>
+					<li><a href="" id="resshou">收藏夹</a></li>
+					    <div id="shoucang" style="position: absolute;display: none;margin-left: 250px;">
+					        <ul style="padding: 10px;background-color: #F2F2F2">
+					    		<p style="padding-bottom: 10px;"><a href="">收藏的宝贝</a></p>
+					    		<p><a href="">收藏的店铺</a></p>
+					    	</ul>
+					   </div>	
+					<li><a href="">商品分类</a></li>
+					<li><a href="">卖家中心</a></li>
+					<li><a href="">联系客服</a></li>
+					<li><a href="" id="wangzhandaohang">网站导航</a></li>
+						<div id="wangzhan" style="position: absolute;display: none;margin-left: -150px;">
+					        <ul style="padding: 10px;background-color: #F2F2F2">
+					    		<div style="width: 270px;float: left;border-right: 1px solid #fff;">
+					    			<h2 style="font-size: 18px;color: red;padding: 10px 0;">热点推荐Hot</h2>
+					    			<ul>
+					    				<li style="padding: 10px 0;"><a href="">天猫超市</a></li>
+					    				<li style="padding: 10px 0;"><a href="">瞄先生</a></li>
+					    				<li style="padding: 10px 0;"><a href="">科技新品</a></li>
+					    				<li style="padding: 10px 0;"><a href="">女装新品</a></li>
+					    				<li style="padding: 10px 0;"><a href="">女装新品</a></li>
+					    				<li style="padding: 10px 0;"><a href="">酷玩街</a></li>
+					    				<li style="padding: 10px 0;"><a href="">内衣新品</a></li>
+					    				<li style="padding: 10px 0;"><a href="">试美妆</a></li>
+					    				<li style="padding: 10px 0;"><a href="">运动新品</a></li>
+					    				<li style="padding: 10px 0;"><a href="">时尚先生</a></li>
+					    				<li style="padding: 10px 0;"><a href="">精明妈咪</a></li>
+					    				<li style="padding: 10px 0;"><a href="">吃乐会</a></li>
+					    			</ul>
+					    		</div>
+					    		<div style="width: 270px;float: left;border-right: 1px solid #fff;">
+					    			<h2 style="font-size: 18px;color: blue;padding: 10px 0;">行业市场MarKet</h2>
+					    			<ul>
+					    				<li style="padding: 10px 0;"><a href="">美妆</a></li>
+					    				<li style="padding: 10px 0;"><a href="">电器</a></li>
+					    				<li style="padding: 10px 0;"><a href="">女装</a></li>
+					    				<li style="padding: 10px 0;"><a href="">男装</a></li>
+					    				<li style="padding: 10px 0;"><a href="">女鞋</a></li>
+					    				<li style="padding: 10px 0;"><a href="">男鞋</a></a></li>
+					    				<li style="padding: 10px 0;"><a href="">内衣</a></li>
+					    				<li style="padding: 10px 0;"><a href="">箱包</a></li>
+					    				<li style="padding: 10px 0;"><a href="">运动</a></li>
+					    				<li style="padding: 10px 0;"><a href="">母婴</a></li>
+					    				<li style="padding: 10px 0;"><a href="">家装</a></li>
+					    				<li style="padding: 10px 0;"><a href="">医药</a></li>
+					    			</ul>
+					    		</div>
+					    		<div style="width: 270px;float: left;border-right: 1px solid #fff;">
+					    			<h2 style="font-size: 18px;color: black;padding: 10px 0;">服务指南</h2>
+					    			<ul>
+					    				<li style="padding: 10px 0;"><a href="">帮助中心</a></li>
+					    				<li style="padding: 10px 0;"><a href="">品质保障</a></li>
+					    				<li style="padding: 10px 0;"><a href="">特色服务</a></li>
+					    				<li style="padding: 10px 0;"><a href="">7天退换货</a></li>	
+					    			</ul>
+					    		</div>
+					        <div style="clear: both;"></div>
+					    </div>
+				</ul>
+			</div>
+		</div>
+		</ul>
+			</div>
+		</div>	
+	<div class="mainone">
+		<div id="con">
+			<img src="../img/logo/denglu.JPG"/>
+			<input id="inta" type="text" name="txt" id="txt" value="" />
+			<input id="intb" type="button" name="btn" id="btn" value="搜索" />
+		</div>
+	</div>
+	<div class="mainone">
+  	  <div class="topsh">
+  		 <div class="topshow" style="background-color: #DE3E3B;width: 100%;">
+	  		 <a href=""><span>全部商品</span></a>
+	  		 <a href="">降价商品</a>
+	  		 <a href="">库存紧张</a>
+	  	</div>
+	  	<div class="topjs">
+	  		<p class="">已选商品<span class="o">0</span>件</p>
+	  		<p>合计(不含运费)：<span id="zja">0.00</span></p>
+	  		<p class="topsum"><a id="topsum" href="pay.html">结算</a></p>
+	  	</div>
+	</div>
+	 <hr>
+	 <div class="mainone">
+	 	<table id="tab">
+	 		<tr>
+	 			<td style="width: 450px;"><input type="checkbox" name="checkone" id="checkone" value=""/><label for="checkone">全选/全不选</label></td>
+	 			<td>商品信息</td>
+	 			<td>单价</td>
+	 			<td>数量</td>
+	 			<td>金额</td>
+	 			<td>操作</td>
+	 		</tr>
+	 		<tr>
+	 			<td colspan="6">
+	 				<input type="checkbox" name="cb" id="cb" value="" />店铺：妈妈秀旗舰店
+					<select name="youhuiquan" id="youhuiquan">
+						<option value="0">优惠券</option>
+						<option value="50">50元</option>
+						<option value="30">30元</option>
+						<option value="20">20元</option>
+					</select>
+	 			</td>
+	 		</tr>
+	 		<tr style="border: 1px solid #ddd;" id="shopa">
+	 			<td style="padding: 15px;"><input type="checkbox" id="checktwo" id="checktwo" value=""/>
+	 				<img src="../img/imab/aaa.jpg"/>
+	 				<a href="">衬衫女潮流时尚</a>
+	 			</td>
+	 			<td style="padding: 10px;">颜色分类：藏青色-加绒加厚<br><br>尺码：均码<br><br><a href=""><span id="xiugaia">修改</span></a></td>
+	 			<td><a href="">158</a></td>
+	 			<td><input type="button" name="ssub" id="ssub" value="-" />
+						<input type="text" id="sub" value="0" />
+						<input type="button" name="ssum" id="ssum" value="+" /></td>
+				<td><span id="zongjia"> 0元</span></td>
+	 			<td>
+					    <a id="shanchua">删除</a><br>
+					    <a href="">相似宝贝</a></td>
+	 		</tr>
+	 		<tr style="border: 1px solid #ddd;" id="shopb">
+	 			<td style="padding: 15px;"><input type="checkbox" name="checkthree" id="checkthree" value="" />
+	 				<img src="../img/imab/aad.jpg"/>
+	 				<a href="">衬衫女潮流时尚</a>
+	 			</td>
+	 			<td style="padding: 10px;">颜色分类：藏青色-加绒加厚<br><br>尺码：均码<br><br><a href=""><span>修改</span></a></td>
+	 			<td><a href="">200</a></td>
+	 			<td><input type="button" name="ssubb" id="ssubb" value="-" />
+						<input type="text" id="subb" value="0" />
+						<input type="button" name="ssumb" id="ssumb" value="+" /></td>
+				<td><span id="zongjiab"> 0元</span></td>
+	 			<td>
+					    <a id="shanchub">删除</a><br>
+					    <a href="">相似宝贝</a></td>
+	 		</tr>
+	 		<tr>
+	 			<td colspan="6">
+	 				<input type="checkbox" name="cbc" id="cbc" value="" />店铺：旗舰店
+					<select name="youhuiquanb" id="youhuiquanb">
+						<option value="0">优惠券</option>
+						<option value="30">30元</option>
+						<option value="20">20元</option>
+					</select>
+	 			</td>
+	 		</tr>
+	 		<tr style="border: 1px solid #ddd;" id="shopc">
+	 			<td style="padding: 15px;"><input type="checkbox" id="checkfour" value="" />
+	 				<img src="../img/imab/aae.jpg"/>
+	 				<a href="">衬衫女潮流时尚</a>
+	 			</td>
+	 			<td style="padding: 10px;">颜色分类：藏青色-加绒加厚<br><br>尺码：均码<br><br><a href=""><span>修改</span></a></td>
+	 			<td><a href="">500</a></td>
+	 			<td><input type="button" name="ssubc" id="ssubc" value="-" />
+						<input type="text" id="subc" value="0" />
+						<input type="button" name="ssumc" id="ssumc" value="+" /></td>
+				<td><span id="zongjiac"> 0元</span></td>
+	 			<td>
+					    <a id="shanchuc">删除</a><br>
+					    <a href="">相似宝贝</a></td>
+	 		</tr>
+	 		<tr style="border: 1px solid #ddd;" id="shopd">
+	 			<td style="padding: 15px;"><input type="checkbox" name="checkfive" id="checkfive" value="" />
+	 				<img src="../img/imab/baa.jpg"/>
+	 				<a href="">衬衫女潮流时尚</a>
+	 			</td>
+	 			<td style="padding: 10px;">颜色分类：藏青色-加绒加厚<br><br>尺码：均码<br><br><a href=""><span>修改</span></a></td>
+	 			<td><a href="">900</a></td>
+	 			<td><input type="button" name="ssubd" id="ssubd" value="-" />
+						<input type="text" id="subd" value="0" />
+						<input type="button" name="ssumd" id="ssumd" value="+" /></td>
+				<td><span id="zongjiad"> 0元</span></td>
+	 			<td>
+					    <a id="shanchud">删除</a><br>
+					    <a href="">相似宝贝</a></td>
+	 		</tr>
+	 	</table>
+	 </div>
+	  </div>
+	 <div id="foota">
+  <div class="mainone">	
+		<div class="f-a" style="margin-top: 50px;">
+	    <p>
+	      <a href="http://www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
+	      <b>|</b>
+	      <a href="//www.taobao.com">淘宝网</a>
+	      <b>|</b>
+	      <a href="//www.tmall.com">天猫</a>
+	      <b>|</b>
+	      <a href="//ju.taobao.com">聚划算</a>
+	      <b>|</b>
+	      <a href="http://www.aliexpress.com">全球速卖通</a>
+	      <b>|</b>
+	      <a href="http://www.alibaba.com/">阿里巴巴国际交易市场</a>
+	      <b>|</b>
+	      <a href="http://www.1688.com">1688</a>
+	      <b>|</b>
+	      <a href="http://www.alimama.com">阿里妈妈</a>
+	      <b>|</b>
+	      <a href="//www.alitrip.com">阿里旅行 · 去啊</a>
+	      <b>|</b>
+	      <a href="http://www.aliyun.com">阿里云计算</a>
+	      <b>|</b>
+	      <a href="http://www.yunos.com">YunOS</a>
+	      <b>|</b>
+	      <a href="http://www.aliqin.cn/">阿里通信</a>
+	      <b>|</b>
+	      <a href="http://www.etao.com/">一淘</a>
+	      <b>|</b>
+	      <a href="http://www.net.cn">万网</a>
+	      <b>|</b>
+	      <a href="http://www.autonavi.com/">高德</a>
+	      <b>|</b>
+	      <a href="http://www.uc.cn/">UC</a>
+	      <b>|</b>
+	      <a href="http://www.umeng.com/">友盟</a>
+	      <br>
+	      <a href="http://www.xiami.com">虾米</a>
+	      <b>|</b>
+	      <a href="http://www.ttpod.com/">天天动听</a>
+	      <b>|</b>
+	      <a href="http://www.laiwang.com/">来往</a>
+	      <b>|</b>
+	      <a href="http://www.dingtalk.com/?lwfrom=20150130160830727">钉钉</a>
+	      <b>|</b>
+	      <a href="https://www.alipay.com">支付宝</a>
+	    </p>
+	  </div>
+	  <div class="f-b">
+	    <p>
+	      <a href="//www.taobao.com/about">关于淘宝</a>
+	      <a href="//www.taobao.com/about/partners.php">合作伙伴</a>
+	      <a href="//pro.taobao.com">营销中心</a>
+	      <a href="http://jubao.alibaba.com" >廉正举报</a>
+	      <a href="//service.taobao.com/support/main/service_route.htm">联系客服</a>
+	      <a href="//open.taobao.com">开放平台</a>
+	      <a href="//www.taobao.com/about/join.php">诚征英才</a>
+	      <a href="//www.taobao.com/about/contact.php">联系我们</a>
+	      <a href="//www.taobao.com/sitemap.php">网站地图</a>
+	      <a href="//www.taobao.com/go/chn/tb-fp/2014/law.php">法律声明</a>
+	      <em>&copy; 2003-2016 Taobao.com 版权所有</em>
+	    </p>
+	     <p>
+	      <span>网络文化经营许可证：<a href="//img.alicdn.com/tps/i2/TB1YFcPLpXXXXaiXFXXcaDpFFXX-803-473.png">浙网文[2013]0268-027号</a></span>
+	      <b>|</b>
+	      <span data-spm-protocol="i">增值电信业务经营许可证：<a href="http://zcainfo.miitbeian.gov.cn/state/outPortal/loginPortal.action">浙B2-20080224-1</a></span>
+	      <b>|</b>
+	      <span>信息网络传播视听节目许可证：1109364号</span>
+	      <b>|</b>
+	      <span> 互联网违法和不良信息举报电话:0571-81683755 blxx@list.alibaba-inc.com </span>
+	    </p>
+	  </div>
+	  </div>
+  </div>
+  <div class="mainone">
+  	 <div class="sh" style="display: none;">
+  		<div class="show">
+	  		 <a href="">清除失效宝贝</a>
+	  		 <a href="">移入收藏夹</a>
+	  		 <a href="">分享</a>
+	  	</div>
+	  	<div class="js">
+	  		<p class="">已选商品<span class="o" style="color: white;">0</span>件</p>
+	  		<p>合计(不含运费)：<span id="s" style="color: white;">0.00</span></p>
+	  		<p class="sum"><a href="pay.html" id="b">结算</a></p>
+	  	</div>
+	</div>
+  </div>
+	</body>
+</html>
